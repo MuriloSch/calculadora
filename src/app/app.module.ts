@@ -2,18 +2,16 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
-import { CalculadoraComponent } from './calculadora/calculadora.component';  // Corrigido para importar corretamente
-
+import { CalculadoraComponent } from './calculadora/calculadora.component';  
 @NgModule({
   declarations: [
     AppComponent,
-    CalculadoraComponent  // Declarando o CalculadoraComponent aqui
+    CalculadoraComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule  // Adicionando FormsModule nos imports
-  ],
+    FormsModule  
   providers: [],
-  bootstrap: [AppComponent]  // Bootstrap do AppComponent
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
